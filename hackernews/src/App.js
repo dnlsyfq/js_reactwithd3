@@ -4,13 +4,25 @@ import './App.css';
 
 class App extends Component {
   render(){
-    return (
+    var firstName="Danial";
+    var lastName="Jalaluddin";
+    return(
       <div className="App">
-        <h2>Welcome to the Road to learn React</h2>
+        <h2>Life is good : {firstName} {lastName}</h2>
       </div>
     );
   }
 }
+
+// class App extends Component {
+//   render(){
+//     return (
+//       <div className="App">
+//         <h2>Welcome to the Road to learn React</h2>
+//       </div>
+//     );
+//   }
+// }
 
 // function App() {
 //   return (
