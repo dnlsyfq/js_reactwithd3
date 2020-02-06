@@ -1,2 +1,1 @@
-# js_reactwithd3
-sandbox
+# React Sandbox
