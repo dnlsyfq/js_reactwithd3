@@ -1,0 +1,3 @@
+[submodule "react-transform-boilerplate"]
+	path = react-transform-boilerplate
+	url = https://github.com/gaearon/react-transform-boilerplate.git
