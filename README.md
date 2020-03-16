@@ -7,21 +7,21 @@ sudo chown -R $USER /usr/local/lib/node_modules
 
 Basic HTML React Render 
 
-"""
+```
 React.render(
     React.createElement(H1BGraph,{url:"data/h1bs.csv"}),
     document.querySelectorAll('.h1bgraph')[0]
 );
-"""
+```
 
 React Render with JSX 
 
-"""
+```
 React.render(
     <H1BGraph url="data/h1bs.csv"/>,
     document.querySelectorAll('.h1bgraph')[0]
 );
-"""
+```
 
 **Approach**
 * React owns the DOM
@@ -29,7 +29,7 @@ React.render(
 
 React
 
-"""
+```
 render: function(){
     return(
         <g transform="translate(50,20)">
@@ -37,11 +37,11 @@ render: function(){
         </g>
     );
 }
-"""
+```
 
 d3
 
-"""
+```
 d3.select("svg")
   .append("g")
   .attr("transform","translate(50,20)")
@@ -49,5 +49,5 @@ d3.select("svg")
   .attr("width",100)
   .attr("height",200);
 
-"""
+```
 
